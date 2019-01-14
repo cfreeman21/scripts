@@ -1,5 +1,8 @@
 KMS_Error_Fix.ps1 can be ran manually (Elevated PowerShell Prompt) or through Configuration Manager (SCCM)
 
+Both Files need to be in same directory:
+Use [KMSfix.cmd](https://github.com/cfreeman21/scripts/blob/master/KMSfix.cmd) for SCCM Application
+
 **The only line you need to edit on the script is $LogDir:**<p>
 $LogDir = "" # Example C:\CompanyXYZ\logs\KMSFix
 
