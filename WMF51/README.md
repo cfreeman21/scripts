@@ -1,12 +1,12 @@
 **2 Lines to edit for the script $LogDir & $Company:**
 
-$LogDir = "" # Example C:\CompanyXYZ\logs\WMF51
-$Company = "" ## Company name this is used when creating registry key
+$LogDir = "" # Example C:\CompanyXYZ\logs\WMF51<p>
+$Company = "" ## Company name this is used when creating registry key<p>
 
 WMF51-FullInstall.ps1 can be ran manually (Elevated CMD Prompt) or through Configuration Manager (SCCM)
 
 # Manual Install:<h1><p>
-(Open CMD as Administrator) Run [WMF51-FullInstall.ps1](https://github.com/cfreeman21/scripts/blob/master/WMF51/WMF51-FullInstall.cmd)<p>
+(Open CMD as Administrator) Run [WMF51-FullInstall.cmd](https://github.com/cfreeman21/scripts/blob/master/WMF51/WMF51-FullInstall.cmd)<p>
 
 # Configuration Manager (SCCM) Install:<h1><p>
 
